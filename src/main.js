@@ -39,5 +39,6 @@ new Vue({
   el: '#app',
   router,
   store,
+  mode: history,
   render: h => h(App)
 })
